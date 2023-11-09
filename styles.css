@@ -230,3 +230,52 @@ h1 {
         font-size: 1.2rem;
     }
 }
+
+/* =========  main menu  ==========  */
+
+.main-menu {
+    background-color: #fff;
+    border-bottom: solid 2px #ccc;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    padding: 1rem;
+}
+
+li a {
+    text-decoration: none;
+    color: #000;
+    transition: all 0.2s ease-in-out;
+}
+
+li a:focus,
+li a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+@media screen and (max-width: 480px) {
+    .main-menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .main-menu {
+        display: flex;
+    }
+}
