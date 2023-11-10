@@ -279,3 +279,61 @@ li a:hover {
         display: flex;
     }
 }
+
+/* ========== asid ========== */
+
+.asid-section {
+    display: flex;
+    justify-content: center;
+}
+
+.asid-collection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 290px));
+    justify-content: space-around;
+}
+
+.asid-collection div {
+    position: relative;
+    overflow: hidden;
+    margin-top: 3rem;
+}
+
+.text-asid {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.text-asid p {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.text-asid a {
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.img-collection {
+    width: 100%;
+    height: 100%;
+}
+
+.img-collection:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.Triangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    border-top: 350px solid var(--primary-color);
+    border-right: 220px solid transparent;
+    opacity: 85%;
+}
