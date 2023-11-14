@@ -1,319 +1,430 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Electro</title>
     <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <nav class="nav-top">
-        <div class="nav-top-center container">
-            <div class="adress--top">
-                <span>
-                    <i class="fa-solid fa-phone"></i>
-                </span>
-                <p>+98-586-621-21</p>
-                <span>
-                    <i class="fa-solid fa-envelope"></i>
-                </span>
-                <p>email@email.com</p>
-                <span>
-                    <i class="fa-solid fa-location-dot"></i>
-                </span>
-                <p>512 emam-ali road</p>
-            </div>
-            <div class="login--top">
-                <span>
-                    <i class="fa-solid fa-dollar-sign"></i>
-                </span>
-                <p>USD</p>
-                <span>
-                    <i class="fa-solid fa-user"></i>
-                </span>
-                <p>My Accont</p>
-            </div>
+      <div class="nav-top-center container">
+        <div class="adress--top">
+          <span>
+            <i class="fa-solid fa-phone"></i>
+          </span>
+          <p>+98-586-621-21</p>
+          <span>
+            <i class="fa-solid fa-envelope"></i>
+          </span>
+          <p>email@email.com</p>
+          <span>
+            <i class="fa-solid fa-location-dot"></i>
+          </span>
+          <p>512 emam-ali road</p>
         </div>
+        <div class="login--top">
+          <span>
+            <i class="fa-solid fa-dollar-sign"></i>
+          </span>
+          <p>USD</p>
+          <span>
+            <i class="fa-solid fa-user"></i>
+          </span>
+          <p>My Accont</p>
+        </div>
+      </div>
     </nav>
     <header class="header-top">
-        <div class="center-header container">
-            <div class="header-title">
-                <h1>Electro</h1>
-            </div>
-            <div class="search-box">
-                <input type="text" list="all-categories" placeholder="All Categories" class="all-categories" />
-                <datalist id="all-categories">
-                    <option value="Phone"></option>
-                    <option value="Laptop"></option>
-                    <option value="Camera"></option>
-                </datalist>
-                <input type="search" placeholder="Search here" />
-                <span class="btn-search">Search</span>
-            </div>
-            <div class="icons-header">
-                <div>
-                    <span>
-                        <i class="fa-regular fa-heart"></i>
-                        <span class="icon-cunt">0</span>
-                    </span>
-                    <p class="icon-header__title">Your Wishlist</p>
-                </div>
-                <div>
-                    <span class="your-cart-icon">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                        <span class="cart-item-cunt">0</span>
-                    </span>
-                    <p class="icon-header__title your-cart-icon">Your Cart</p>
-                </div>
-                <div class="menu-hidden">
-                    <span>
-                        <i class="fas fa-bars"></i>
-                    </span>
-                </div>
-
-            </div>
+      <div class="center-header container">
+        <div class="header-title">
+          <h1>Electro</h1>
         </div>
+        <div class="search-box">
+          <input
+            type="text"
+            list="all-categories"
+            placeholder="All Categories"
+            class="all-categories"
+          />
+          <datalist id="all-categories">
+            <option value="Phone"></option>
+            <option value="Laptop"></option>
+            <option value="Camera"></option>
+          </datalist>
+          <input type="search" placeholder="Search here" />
+          <span class="btn-search">Search</span>
+        </div>
+        <div class="icons-header">
+          <div>
+            <span>
+              <i class="fa-regular fa-heart"></i>
+              <span class="icon-cunt">0</span>
+            </span>
+            <p class="icon-header__title">Your Wishlist</p>
+          </div>
+          <div>
+            <span class="your-cart-icon">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span class="cart-item-cunt">0</span>
+            </span>
+            <p class="icon-header__title your-cart-icon">Your Cart</p>
+          </div>
+          <div class="menu-hidden">
+            <span>
+              <i class="fas fa-bars"></i>
+            </span>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!--   main menu   -->
 
     <div class="main-menu">
-        <div class="container">
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Hot Deais</a></li>
-                    <li><a href="#">Categories</a></li>
-                    <li><a href="#">Laptops</a></li>
-                    <li><a href="#">SmartPhons</a></li>
-                    <li><a href="#">Cameras</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Hot Deais</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Laptops</a></li>
+            <li><a href="#">SmartPhons</a></li>
+            <li><a href="#">Cameras</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
 
     <!--   asid section   -->
 
     <section class="asid-section">
-        <aside class="asid-collection container">
-            <div>
-                <span class="Triangle"></span>
-                <img class="img-collection" src="./assets/camera.jpg" alt="camera collection " />
-                <span class="text-asid">
-                    <p>Cameras</p>
-                    <p>Collection</p>
-                    <span>
-                        <a href="#">Shop Now
-                            <i class="fa-solid fa-circle-arrow-right"></i>
-                        </a>
-                    </span>
-                </span>
-            </div>
-            <div>
-                <span class="Triangle"></span>
-                <img class="img-collection" src="./assets/headset.png" alt="headset collection" />
-                <span class="text-asid">
-                    <p>Headsets</p>
-                    <p>Collection</p>
-                    <span>
-                        <a href="#">Shop Now
-                            <i class="fa-solid fa-circle-arrow-right"></i>
-                        </a>
-                    </span>
-                </span>
-            </div>
-            <div>
-                <span class="Triangle"></span>
-                <img class="img-collection" src="./assets/laptop.jpg" alt="laptop collection" />
-                <span class="text-asid">
-                    <p>Laptops</p>
-                    <p>Collection</p>
-                    <span>
-                        <a href="#">Shop Now
-                            <i class="fa-solid fa-circle-arrow-right"></i>
-                        </a>
-                    </span>
-                </span>
-            </div>
-        </aside>
+      <aside class="asid-collection container">
+        <div>
+          <span class="Triangle"></span>
+          <img
+            class="img-collection"
+            src="./assets/camera.jpg"
+            alt="camera collection "
+          />
+          <span class="text-asid">
+            <p>Cameras</p>
+            <p>Collection</p>
+            <span>
+              <a href="#"
+                >Shop Now
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+            </span>
+          </span>
+        </div>
+        <div>
+          <span class="Triangle"></span>
+          <img
+            class="img-collection"
+            src="./assets/headset.png"
+            alt="headset collection"
+          />
+          <span class="text-asid">
+            <p>Headsets</p>
+            <p>Collection</p>
+            <span>
+              <a href="#"
+                >Shop Now
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+            </span>
+          </span>
+        </div>
+        <div>
+          <span class="Triangle"></span>
+          <img
+            class="img-collection"
+            src="./assets/laptop.jpg"
+            alt="laptop collection"
+          />
+          <span class="text-asid">
+            <p>Laptops</p>
+            <p>Collection</p>
+            <span>
+              <a href="#"
+                >Shop Now
+                <i class="fa-solid fa-circle-arrow-right"></i>
+              </a>
+            </span>
+          </span>
+        </div>
+      </aside>
     </section>
     <!--   products   -->
     <section class="new-products">
-        <header class="new-products-header container">
-            <div>
-                <h2>NEW PRODUCTS</h2>
-            </div>
-            <div>
-                <ul class="new-products-menu">
-                    <li><a href="#">Laptops</a></li>
-                    <li><a href="#">SmartPhons</a></li>
-                    <li><a href="#">Cameras</a></li>
-                    <li><a href="#">Accessoreis</a></li>
-                </ul>
-            </div>
-        </header>
-        <div class="products container">
-            <div class="product-items">
-                <img class="products-img" src="./assets/camera.jpg" alt="" />
-                <span class="off-price">-30%</span>
-                <div class="descriptions-products">
-                    <span class="category-products">Camera</span>
-                    <span class="products-name">Cameras w10s</span>
-                    <span>
-                        <span class="products-price">$890,00</span>
-                        <span class="products-price-off">$990,00</span>
-                    </span>
-                </div>
-                <div class="rating">
-                    <hr />
-                    <span class="rating-star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </span>
-                </div>
-                <div class="icons">
-                    <span>
-                        <i class="fa-solid fa-heart"></i>
-                    </span>
-                    <span>
-                        <i class="fa-solid fa-exchange"></i>
-                    </span>
-                    <span>
-                        <i class="fa-solid fa-eye"></i>
-                    </span>
-                </div>
-            </div>
-            <div class="product-items">
-                <img class="products-img" src="./assets/laptop.jpg" alt="" />
-                <div class="descriptions-products">
-                    <span class="category-products">Laptop</span>
-                    <span class="products-name">Asus b40s</span>
-                    <span>
-                        <span class="products-price">$890,00</span>
-                        <span class="products-price-off">$990,00</span>
-                    </span>
-                </div>
-                <div class="rating">
-                    <hr />
-                    <span class="rating-star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </span>
-                </div>
-                <div class="icons">
-                    <span>
-                        <i class="fa-solid fa-heart"></i>
-                    </span>
-                    <span>
-                        <i class="fa-solid fa-exchange"></i>
-                    </span>
-                    <span>
-                        <i class="fa-solid fa-eye"></i>
-                    </span>
-                </div>
-            </div>
-            <div class="product-items">
-                <img class="products-img" src="./assets/headset.png" alt="" />
-                <div class="descriptions-products">
-                    <span class="category-products">headphones</span>
-                    <span class="products-name">jebra jk-850</span>
-                    <span>
-                        <span class="products-price">$890,00</span>
-                        <span class="products-price-off">$990,00</span>
-                    </span>
-                </div>
-                <div class="rating">
-                    <hr />
-                    <span class="rating-star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </span>
-                </div>
-                <div class="icons">
-                    <span>
-                        <i class="fa-solid fa-heart"></i>
-                    </span>
-                    <span>
-                        <i class="fa-solid fa-exchange"></i>
-                    </span>
-                    <span>
-                        <i class="fa-solid fa-eye"></i>
-                    </span>
-                </div>
-            </div>
-            <div class="product-items">
-                <img class="products-img" src="./assets/headset.png" alt="" />
-                <div class="descriptions-products">
-                    <span class="category-products">headphones</span>
-                    <span class="products-name">jebra jk-850</span>
-                    <span>
-                        <span class="products-price">$890,00</span>
-                        <span class="products-price-off">$990,00</span>
-                    </span>
-                </div>
-                <div class="rating">
-                    <hr />
-                    <span class="rating-star">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </span>
-                </div>
-                <div class="icons">
-                    <span>
-                        <i class="fa-solid fa-heart"></i>
-                    </span>
-                    <span>
-                        <i class="fa-solid fa-exchange"></i>
-                    </span>
-                    <span>
-                        <i class="fa-solid fa-eye"></i>
-                    </span>
-                </div>
-            </div>
+      <header class="new-products-header container">
+        <div>
+          <h2>NEW PRODUCTS</h2>
         </div>
+        <div>
+          <ul class="new-products-menu">
+            <li><a href="#">Laptops</a></li>
+            <li><a href="#">SmartPhons</a></li>
+            <li><a href="#">Cameras</a></li>
+            <li><a href="#">Accessoreis</a></li>
+          </ul>
+        </div>
+      </header>
+      <div class="products container">
+        <div class="product-items">
+          <img class="products-img" src="./assets/camera.jpg" alt="" />
+          <span class="off-price">-30%</span>
+          <div class="descriptions-products">
+            <span class="category-products">Camera</span>
+            <span class="products-name">Cameras w10s</span>
+            <span>
+              <span class="products-price">$890,00</span>
+              <span class="products-price-off">$990,00</span>
+            </span>
+          </div>
+          <div class="rating">
+            <hr />
+            <span class="rating-star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+          </div>
+          <div class="icons">
+            <span>
+              <i class="fa-solid fa-heart"></i>
+            </span>
+            <span>
+              <i class="fa-solid fa-exchange"></i>
+            </span>
+            <span>
+              <i class="fa-solid fa-eye"></i>
+            </span>
+          </div>
+        </div>
+        <div class="product-items">
+          <img class="products-img" src="./assets/laptop.jpg" alt="" />
+          <div class="descriptions-products">
+            <span class="category-products">Laptop</span>
+            <span class="products-name">Asus b40s</span>
+            <span>
+              <span class="products-price">$890,00</span>
+              <span class="products-price-off">$990,00</span>
+            </span>
+          </div>
+          <div class="rating">
+            <hr />
+            <span class="rating-star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+          </div>
+          <div class="icons">
+            <span>
+              <i class="fa-solid fa-heart"></i>
+            </span>
+            <span>
+              <i class="fa-solid fa-exchange"></i>
+            </span>
+            <span>
+              <i class="fa-solid fa-eye"></i>
+            </span>
+          </div>
+        </div>
+        <div class="product-items">
+          <img class="products-img" src="./assets/headset.png" alt="" />
+          <div class="descriptions-products">
+            <span class="category-products">headphones</span>
+            <span class="products-name">jebra jk-850</span>
+            <span>
+              <span class="products-price">$890,00</span>
+              <span class="products-price-off">$990,00</span>
+            </span>
+          </div>
+          <div class="rating">
+            <hr />
+            <span class="rating-star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+          </div>
+          <div class="icons">
+            <span>
+              <i class="fa-solid fa-heart"></i>
+            </span>
+            <span>
+              <i class="fa-solid fa-exchange"></i>
+            </span>
+            <span>
+              <i class="fa-solid fa-eye"></i>
+            </span>
+          </div>
+        </div>
+        <div class="product-items">
+          <img class="products-img" src="./assets/headset.png" alt="" />
+          <div class="descriptions-products">
+            <span class="category-products">headphones</span>
+            <span class="products-name">jebra jk-850</span>
+            <span>
+              <span class="products-price">$890,00</span>
+              <span class="products-price-off">$990,00</span>
+            </span>
+          </div>
+          <div class="rating">
+            <hr />
+            <span class="rating-star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </span>
+          </div>
+          <div class="icons">
+            <span>
+              <i class="fa-solid fa-heart"></i>
+            </span>
+            <span>
+              <i class="fa-solid fa-exchange"></i>
+            </span>
+            <span>
+              <i class="fa-solid fa-eye"></i>
+            </span>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Hot Deal -->
 
     <section class="hot-deal-section">
-        <div class="hot-deal container">
-          <div>
-            <img class="img-hot-deal" src="./assets/laptop-hot-deal.png" alt="laptap" />
-          </div>
-          <div class="hot-deal-countdown">
-            <div>
-              <span class="countdown">02</span>
-              <span class="countdown">10</span>
-              <span class="countdown">34</span>
-              <span class="countdown">60</span>
-            </div>
-            <h2 class="hot-deal-header">HOT DEAL THIS WEEK</h2>
-            <p class="hot-deal-text">NEW COLLECTION UP TO 50% OFF</p>
-            <span class="btn-shop">SHOP NOW</span>
-          </div>
-          <div>
-            <img class="img-hot-deal" src="./assets/headphon-hot-deal.png" alt="headphone" />
-          </div>
+      <div class="hot-deal container">
+        <div>
+          <img
+            class="img-hot-deal"
+            src="./assets/laptop-hot-deal.png"
+            alt="laptap"
+          />
         </div>
-      </section>
+        <div class="hot-deal-countdown">
+          <div>
+            <span class="countdown">02</span>
+            <span class="countdown">10</span>
+            <span class="countdown">34</span>
+            <span class="countdown">60</span>
+          </div>
+          <h2 class="hot-deal-header">HOT DEAL THIS WEEK</h2>
+          <p class="hot-deal-text">NEW COLLECTION UP TO 50% OFF</p>
+          <span class="btn-shop">SHOP NOW</span>
+        </div>
+        <div>
+          <img
+            class="img-hot-deal"
+            src="./assets/headphon-hot-deal.png"
+            alt="headphone"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <section class="main-footer">
+      <header>
+        <div class="col-footer">
+          <h3 class="header-col-footer">about us</h3>
+          <ul class="list-col-footer">
+            <li>
+              <a href="#"
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                nisi incidunt explicabo, consectetur corrupti cumque modi
+                excepturi ut?
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="aboutus-icon"
+                  ><i class="fas fa-location-dot"></i
+                ></span>
+                1734 Stonecoal Road
+              </a>
+            </li>
+            <li>
+              <a href="#"
+                ><span class="aboutus-icon"><i class="fas fa-phone"></i></span
+                >+021-95-51-84</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span class="aboutus-icon"><i class="fa fa-envelope"></i></span
+                >email@email.com</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-footer">
+          <h3 class="header-col-footer">categories</h3>
+          <ul class="list-col-footer">
+            <li><a href="#">hot deals</a></li>
+            <li><a href="#">laptop</a></li>
+            <li><a href="#">smartphones</a></li>
+            <li><a href="#">cameras</a></li>
+            <li><a href="#">accessories</a></li>
+          </ul>
+        </div>
+        <div class="col-footer">
+          <h3 class="header-col-footer">information</h3>
+          <ul class="list-col-footer">
+            <li><a href="#">about us</a></li>
+            <li><a href="#">contact us</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">orders and returns</a></li>
+            <li><a href="#">term & conditions</a></li>
+          </ul>
+        </div>
+        <div class="col-footer">
+          <h3 class="header-col-footer">service</h3>
+          <ul class="list-col-footer">
+            <li><a href="#">my Account</a></li>
+            <li><a href="#">view cart</a></li>
+            <li><a href="#">wishlist</a></li>
+            <li><a href="#">track my order</a></li>
+            <li><a href="#">help</a></li>
+          </ul>
+        </div>
+      </header>
+      <footer>
+        <div class="img-cart-creatids"></div>
+        <div class="copy-right">
+          copyright 2023 all right reserved | This template is made with by
+          colorlib
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
